@@ -1,3 +1,10 @@
+/*
+Lowest Common Ancestor
+Description: Find LCA (Euler Tour based)
+Time: O(log n) per query
+Source: CP-Algorithms
+*/
+
 struct LCA {
     vector<int> height, euler, first, segtree;
     vector<bool> visited;

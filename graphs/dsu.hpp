@@ -1,3 +1,9 @@
+/*
+Disjoint Set Union
+Description: Unite edges, Check if they are in the same component
+Source: Benq
+*/
+
 struct DSU {
     vector<int> e;
     DSU(int N) { e = vector<int>(N, -1); }

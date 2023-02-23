@@ -1,3 +1,10 @@
+/*
+Convex Hull Trick
+Description: Add Line of the form y=mx+k and find the min/max y for given x
+Time: O(log n)
+Source: KACTL + Codeforces
+*/
+
 // for min
 struct CHT {
     struct line {
